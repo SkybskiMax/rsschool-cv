@@ -1,0 +1,257 @@
+body {
+    margin: auto;
+    font-family: 'Bebas Neue';
+    background-color: #D6D8D7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 30px -1px rgb(0 0 0 / 15%);
+    border-radius: 2%;
+}
+
+.left-container {
+    width: 35%;
+    background-color: #2D3540;
+}
+
+.right-container {
+    width: 65%;
+    margin: 10px 30px;
+    background-color: whitesmoke;
+    font-size: 24px;
+}
+
+.contacts {
+    margin: 20px 10px 10px 20px;
+    font-size: 30px;
+    text-align: start;
+    color: whitesmoke;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.contacts ul li {
+    margin-bottom: 15px;
+}
+
+.contacts-link {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.fa-stack-1x {
+    padding-left: 10px;
+    color: black;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rsschool-logo {
+    margin: 10px;
+    height: 45px;
+}
+
+footer {
+    background-color: #23241F;
+    display: flex;
+    justify-content: start;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: whitesmoke;
+    padding: auto;
+}
+
+footer div {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a {
+    border: none;
+    text-decoration: none;
+}
+
+span {
+    font-size: 0.5rem;
+    color: #1DADD9;
+}
+
+pre code span {
+    font-size: 1em;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+}
+
+code {
+    font-size: 20px;
+}
+
+pre {
+    margin: 0px;
+}
+
+a { 
+    text-decoration: none; 
+    color:inherit;
+    border-bottom: 5px solid #2D3540;
+    transition: border-color 0.66s ease-out;
+}
+
+a:hover {    
+    transition: border-color 0.4s;
+    border-color: #1DADD9;
+}
+
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+  
+.navbar-links {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .burger {
+        display: block;
+        border:none;
+        padding-bottom: 0px;
+    }
+
+    nav {
+        display: inline;
+        width: 100%;
+    }
+
+    .navbar-links {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .navbar-links {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .navbar-links li {
+        list-style-type: none;
+        height: 40px;
+    }
+
+    .navbar-links li a {
+        text-decoration: none; 
+        display: block;
+        border: none;
+        transition:none;
+    }
+
+    nav ul li {
+        display:none;
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 320px;
+        background-color: whitesmoke;
+        box-shadow: 10px 10px 30px -1px rgb(0 0 0 / 15%);
+        border-radius: 2%;
+    }
+
+    .left-container {
+        width: auto;
+    }
+
+    .right-container {
+        width: auto;
+        margin: 0px;
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+
+    .info {
+        max-width: 300px;
+        margin: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 320px;
+    }
+
+    code {
+        font-size: 14px;
+    }
+
+    footer {
+        width: 320px;
+    }
+
+    .rsschool-logo {
+        margin: 5px;
+        height: 25px;
+    }
+    
+    
+}
